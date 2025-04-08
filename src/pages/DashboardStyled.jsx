@@ -850,7 +850,7 @@ function Dashboard() {
                         />
                         {game.popular && (
                           <Chip
-                            label="Popular"
+                            label="Populars"
                             size="small"
                             color="error"
                             sx={{ fontWeight: 'medium' }}
