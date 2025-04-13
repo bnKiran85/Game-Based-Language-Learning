@@ -95,7 +95,7 @@ const games = [
     completionRate: 75,
     new: true
   },
-  // New games added below
+  
   {
     name: "Memory Match",
     image: "/MemoryMatch.jpg",
@@ -107,6 +107,8 @@ const games = [
     completionRate: 78,
     popular: true
   },
+  // New games added below
+  
   // { 
   //   name: "Sentence Builder", 
   //   image: "/SentenceBuilder.jpg", 
@@ -422,7 +424,7 @@ function Dashboard() {
             >
               <Avatar
                 alt="User Profile"
-                src="/user-avatar.jpg"
+                src="https://randomuser.me/api/portraits/men/85.jpg"
                 sx={{ width: 32, height: 32 }}
               />
             </IconButton>
